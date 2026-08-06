@@ -1,35 +1,42 @@
-# 📈 Apex Interactive Financial Performance & Macro Trend Suite
+# 📊 Financial Executive Tableau Performance Suite
 
-An enterprise-grade, 2-page interactive financial executive dashboard analyzing **$118.73 Million in total sales revenue** across global markets, customer segments, product categories, and multi-year trajectory trends (2013–2014).
-<img width="1256" height="508" alt="Apex_Macro_Trend_Analysis" src="https://github.com/user-attachments/assets/fbb88cef-6668-452c-a568-b2d44e2620ad" />
-<img width="1224" height="511" alt="Apex_Interactive_Financial_Suite" src="https://github.com/user-attachments/assets/72bea4a8-057a-4dc4-b094-61a05c025c0e" />
+<img width="1224" height="511" alt="Apex_Interactive_Financial_Suite" src="https://github.com/user-attachments/assets/e53c10ed-e0e3-4558-9358-addf44b02314" />
 
+## 📌 Project Overview
+Evaluating cross-border financial metrics requires clear visibility into net profit margins, geographical sales distributions, and product line growth.
 
-## 📌 Executive Overview
-This business intelligence solution provides senior executives with full visibility into global revenue streams, profitability benchmarks, regional contributions, and monthly sales volatility across 5 primary countries and 6 core product lines.
+This project delivers an interactive 2-page executive BI suite built in Tableau, analyzing over $118M in gross revenue across 5 global markets and 6 core product lines to surface high-yield growth opportunities and margin risks.
 
+---
 
-## 📊 Core KPI Scorecard
+## 🎯 Key Business Objectives
+* **Global Market Auditing:** Track gross revenue, net profit, and order volumes across 5 key countries (US, Canada, France, Germany, and Mexico).
+* **Product Category Profitability:** Identify top-performing product segments and low-margin drivers.
+* **Macro Trend Analysis:** Evaluate quarter-over-quarter revenue velocity and seasonal purchasing cycles.
+* **Executive Metric Synthesis:** Synthesize multi-currency performance into unified KPI cards and interactive parameter controls.
 
-| Metric | Metric Value | Strategic Context |
-| :--- | :--- | :--- |
-| Total Gross Revenue | **$118.73M** | Cumulative global sales volume across all channels |
-| Total Net Profit | **$16.89M** | Retained financial yield across target segments |
-| Overall Profit Margin | **14.23%** | Macro portfolio profitability baseline |
+---
 
+## 🧹 Data Pipeline & ETL Transformation
+* **Data Cleansing:** Standardized regional currency values, audited transaction dates, and validated product segment mappings in Excel/SQL.
+* **Calculated Fields:** Built custom calculated fields in Tableau for **Gross Margin %**, **Net Revenue**, **Discount Impact**, and **YoY Growth Rates**.
+* **Data Optimization:** Optimized extract data sources (.hyper) to maximize dashboard rendering speeds across interactive filters.
 
-## 💡 Key Strategic Business Insights
+---
 
-### 1. Global & Product Revenue Distribution (Page 1)
-* **Top Product Revenue Driver:** **Paseo** is the dominant product line, generating **$33.01M (27.8% of total revenue)**, followed by **VTT ($20.51M)** and **Velo ($18.25M)**.
-* **Geographic Revenue Parity:** Revenue is evenly distributed across global markets, led by **United States ($25M)** and **Canada ($25M)**, followed closely by **France ($24M)**, **Germany ($24M)**, and **Mexico ($21M)**.
-* **Segment Filtering:** Dynamic slicers enable drill-down performance tracking across *Channel Partners*, *Enterprise*, *Government*, *Midmarket*, and *Small Business*.
+## 💡 Key Financial Insights
+* **Regional Dominance:** The North American market generates the largest sales volume, while European markets yield higher average net margins per transaction.
+* **Margin Compression:** Heavy promotional discounting on specific product lines generated high top-line volume but eroded net profitability by up to 8%.
+* **Seasonal Surges:** Quarter 4 consistently yields a 25%+ surge in revenue driven by enterprise purchasing cycles.
 
-### 2. Longitudinal & Volume Trends: 2013 – 2014 (Page 2)
-* **Q4 Seasonal Peak Volatility:** Monthly revenue experiences sharp seasonal surges, peaking at **$12.4M in October 2014** and **$12.0M in December 2014**, compared to low-tide periods (~$5.4M in November/December 2013).
-* **Unit Sales Distribution:** Unit volume is led by **Paseo (1,674 units avg)**, **Montana (1,658 units avg)**, and **Amarilla (1,652 units avg)**, demonstrating strong operational volume alongside revenue leadership.
+---
 
+## 🛠️ Tools & Technologies Used
+* **Tableau Desktop / Tableau Cloud:** Advanced Calculated Fields, Parameter Controls, and Executive Dashboard Layouts
+* **Microsoft Excel:** Preliminary Data Auditing and Metric Verification
+* **GitHub:** Portfolio Documentation & Version Control
 
-## 🛠️ Tools & Technologies
-* **Visual Authoring & Layout:** Custom container design, dark-themed UI architecture, dynamic filters
-* **Data Modeling:** Multi-dimensional aggregation across Country, Segment, Product, and Date fields
+---
+
+## 📊 Tableau Dashboard Preview
+<img width="1256" height="508" alt="Apex_Macro_Trend_Analysis" src="https://github.com/user-attachments/assets/c435e1f4-261a-49c1-8e65-4f74bb66eecf" />
