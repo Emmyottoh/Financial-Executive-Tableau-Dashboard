@@ -1,42 +1,28 @@
-# 📊 Financial Executive Tableau Performance Suite
+# Financial Executive BI & Portfolio Analytics Suite
+
+## Project Overview
+Executive leadership and financial analysts require real-time, parameter-driven visual suites to monitor operational capital, evaluate revenue drivers, and identify macro-level financial risks[cite: 2]. This project provides a production-grade Tableau Cloud dashboard featuring interactive parameter controls and visual analytics designed for executive decision-making[cite: 2].
 
 <img width="1224" height="511" alt="Apex_Interactive_Financial_Suite" src="https://github.com/user-attachments/assets/e53c10ed-e0e3-4558-9358-addf44b02314" />
 
-## 📌 Project Overview
-Evaluating cross-border financial metrics requires clear visibility into net profit margins, geographical sales distributions, and product line growth.
+## Technical Stack & Tools
+* **Business Intelligence & Visualization:** Tableau Cloud, Tableau Desktop, Parameter Controls, Dynamic Filters, Visual Analytics[cite: 2]
+* **Data Engineering & Databases:** SQL, Power Query, Data Cleaning, Data Transformation[cite: 1, 2]
+* **Spreadsheets & Data Science:** Microsoft Excel, Python EDA Foundations[cite: 1, 2]
+* **Core Competencies:** Analytical Skills, Statistics, Data Modeling, Financial Intelligence, Stakeholder Communication[cite: 2]
 
-This project delivers an interactive 2-page executive BI suite built in Tableau, analyzing over $118M in gross revenue across 5 global markets and 6 core product lines to surface high-yield growth opportunities and margin risks.
+## Key Features & Business Impact
+* **Executive Decision Layout:** Engineered an interactive 5-panel Tableau Cloud suite providing immediate visibility into total portfolio revenues, risk exposure metrics, and capital allocation performance[cite: 2].
+* **Parameter-Driven Scenario Modeling:** Integrated flexible parameter controls allowing financial officers to perform dynamic stress-testing and cross-segmentation across custom timeline and demographic groupings[cite: 2].
+* **Statistical Profiling:** Applied **Statistics** and advanced **Analytical Skills** to calculate variance distributions, performance benchmarks, and recovery rate indicators[cite: 2].
+* **Relational Data Architecture:** Built clean **Data Modeling** connections between financial ledgers, transactional logs, and dimensional lookup tables[cite: 2].
 
----
+## Data Pipeline & Methodology
+1. **ETL & SQL Preprocessing:** Cleaned and aggregated multi-source financial logs using **SQL** and **Power Query** prior to loading into Tableau[cite: 1, 2].
+2. **Tableau Data Modeling:** Configured relational joins and calculated fields in **Tableau** to enable seamless cross-filtering across all visual panels[cite: 2].
+3. **Executive Communication:** Designed high-level visual card containers and drill-down interfaces to streamline **Communication** with C-suite stakeholders[cite: 2].
 
-## 🎯 Key Business Objectives
-* **Global Market Auditing:** Track gross revenue, net profit, and order volumes across 5 key countries (US, Canada, France, Germany, and Mexico).
-* **Product Category Profitability:** Identify top-performing product segments and low-margin drivers.
-* **Macro Trend Analysis:** Evaluate quarter-over-quarter revenue velocity and seasonal purchasing cycles.
-* **Executive Metric Synthesis:** Synthesize multi-currency performance into unified KPI cards and interactive parameter controls.
-
----
-
-## 🧹 Data Pipeline & ETL Transformation
-* **Data Cleansing:** Standardized regional currency values, audited transaction dates, and validated product segment mappings in Excel/SQL.
-* **Calculated Fields:** Built custom calculated fields in Tableau for **Gross Margin %**, **Net Revenue**, **Discount Impact**, and **YoY Growth Rates**.
-* **Data Optimization:** Optimized extract data sources (.hyper) to maximize dashboard rendering speeds across interactive filters.
-
----
-
-## 💡 Key Financial Insights
-* **Regional Dominance:** The North American market generates the largest sales volume, while European markets yield higher average net margins per transaction.
-* **Margin Compression:** Heavy promotional discounting on specific product lines generated high top-line volume but eroded net profitability by up to 8%.
-* **Seasonal Surges:** Quarter 4 consistently yields a 25%+ surge in revenue driven by enterprise purchasing cycles.
-
----
-
-## 🛠️ Tools & Technologies Used
-* **Tableau Desktop / Tableau Cloud:** Advanced Calculated Fields, Parameter Controls, and Executive Dashboard Layouts
-* **Microsoft Excel:** Preliminary Data Auditing and Metric Verification
-* **GitHub:** Portfolio Documentation & Version Control
-
----
-
-## 📊 Tableau Dashboard Preview
 <img width="1256" height="508" alt="Apex_Macro_Trend_Analysis" src="https://github.com/user-attachments/assets/c435e1f4-261a-49c1-8e65-4f74bb66eecf" />
+
+---
+*Developed by Emmanuel Ottoh | Data Analyst & BI Developer*[cite: 1, 2]
